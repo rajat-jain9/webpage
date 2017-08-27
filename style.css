@@ -1,0 +1,173 @@
+* {
+
+	margin: 0;
+	padding:0;
+}
+
+body
+{
+
+	font-family: tahoma;
+}
+.main
+{
+
+	position: absolute;
+	width: 1140px;
+	top: 40%;
+	left: 50%;
+	transform: translate(-55%,-50%);
+
+}
+h1{
+
+
+}
+
+header
+{
+
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/background.jpg);
+	height:100vh;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.menu_bar{
+
+	max-width:1140px;
+	margin: 0 auto;
+}
+
+.menu{
+list-style: none;
+float: right;
+}
+
+.menu li{
+
+	display: inline-block;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+
+.menu li a{
+	font-size: 20px;
+color: black;
+text-decoration: none;
+
+}
+
+.menu li a:hover{
+	color:    #1a5276;
+	border-bottom: 3px solid   #1a5276  ;
+	transition: all 0.5s ease-in;
+	padding:10px 0px;
+}
+
+.menu li input{
+
+	width: 120px;
+	transform: translateY(4px);
+}
+
+.logo{
+
+	float: left;
+}
+
+.logo h1{
+    font-size:40px; 
+	margin-top: 20px;
+	color: #154360 ;
+}
+.select{
+
+	color:  #1a5276 ;
+}
+
+.wrapper input{
+	background-color:  #85929e ;
+	border: 2px solid #1a5276; 
+	height: 25px;
+	font-color:;
+}
+
+.wrapper button{
+color:white;
+border: none;		
+background-color: #1a5276;
+width: 80px;
+height: 25px;
+margin-left: 10px;
+}
+
+.use{
+	background-image: url(images/icons.png);
+	background-color: #0000B2;
+	heigh:100px;
+	background-position: center;
+	background-size: cover;
+	margin-bottom:50px;
+
+	}
+
+#heading
+{
+	text-align: center;
+	margin-right: 70px;
+}
+
+.second{
+background-color: #797D7F;
+margin-top: -10px;
+
+
+}
+
+.second h1, .second p{
+
+	margin-left: 60px;
+}
+
+
+.menu_s li{
+	display: inline;
+	margin-right: 40px;
+}
+
+.menu ul{
+
+	margin-top: -20px;
+}
+
+.app_store form input {
+	width: 120px;
+	float: right;
+	margin-right: 60px;
+	margin-top: -30px;
+	transform: translateY(4px);
+
+}
+
+.soc{
+
+	margin-top: -20px;
+}
+
+footer p{
+
+	
+}
+
+#rt {
+
+	color:black;
+		margin-left:30px;
+}
+
+
+
+
+

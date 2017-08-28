@@ -1,0 +1,66 @@
+
+body
+{
+
+	width: 125%;
+}
+.logo{
+	margin-left: 40px;
+}
+
+.logo h1{
+
+	font-size: 60px;
+}
+
+.main
+{
+
+	position: absolute;
+	width: 1140px;
+	top: 40%;
+	left: 70%;
+	transform: translate(-55%,-50%);
+
+}
+
+.main h1{
+	font-size: 80px;
+}
+
+.main h3{
+
+	font-size: 40px;
+}
+
+.main input{
+
+	width: 400px;
+	height: 70px;
+	}
+
+.main button{
+width: 200px;
+height: 70px;
+font-size: 30px;
+	}
+
+
+.for_sm{
+
+}
+
+.img
+{
+
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/background.jpg);
+	height:120.5vh;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.ph2 div{
+	background-color:#797D7F;
+	margin:10px 0 0 0;
+}

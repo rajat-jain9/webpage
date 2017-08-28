@@ -19,16 +19,19 @@ body
 	transform: translate(-55%,-50%);
 
 }
-h1{
+.for_sm{
+background-color: #00008B;
+height: 100px;
+margin-top: -10px;
 
 
 }
 
-header
+.img
 {
 
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/background.jpg);
-	height:100vh;
+	height:95vh;
 	background-position: center;
 	background-size: cover;
 
@@ -80,7 +83,7 @@ text-decoration: none;
 .logo h1{
     font-size:40px; 
 	margin-top: 20px;
-	color: #154360 ;
+	color: #00008B ;
 }
 .select{
 
@@ -89,7 +92,7 @@ text-decoration: none;
 
 .wrapper input{
 	background-color:  #85929e ;
-	border: 2px solid #1a5276; 
+	border: 1px solid #00008B; 
 	height: 25px;
 	font-color:;
 }
@@ -97,7 +100,7 @@ text-decoration: none;
 .wrapper button{
 color:white;
 border: none;		
-background-color: #1a5276;
+background-color: #00008B;
 width: 80px;
 height: 25px;
 margin-left: 10px;
@@ -117,6 +120,11 @@ margin-left: 10px;
 {
 	text-align: center;
 	margin-right: 70px;
+}
+
+.ph2 div{
+	background-color:#797D7F;
+	margin:10px 0 0 60px;
 }
 
 .second{
